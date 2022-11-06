@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.dic-title{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color:#000000;
+}
+
+#dic-form{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.dic-input{
+    width: 1104px;
+    height: 61px; 
+    padding: 16px 0 16px 33px;  
+    border: #ccc;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+#dic-btn{
+    width: 158px;
+    height: 62px;
+    padding: 17px 40px 16px 39px;
+    background: #111111;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+
+.box {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.example {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 30px;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+.word{
+    margin-bottom: 7px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.def{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 7px;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    border:2px solid #000000;
+    text-align: center;
+    background-color: #000000;
+    color:white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
