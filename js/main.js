@@ -14,6 +14,9 @@ dictionaryForm.addEventListener("submit", (e) => {
         let response = await fetch(
           `https://api.dictionaryapi.dev/api/v2/entries/en/${dictionaryInp}`
         );
+        if (response.status != 200) {
+          throw new Error("nimadir neto !");
+        }
         let data = await response.json();
         render(data);
       }
